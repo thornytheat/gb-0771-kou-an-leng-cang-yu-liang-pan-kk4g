@@ -4,7 +4,9 @@ from app.modules.capacity.service import reconcile
 
 
 def test_dirty_stock(dirty):
-    assert dirty['capacity']['counts'] == dict(available=27,frozen=4,occupied=4,free=19,excess=0,unplaced=0,in_stock=8)
+    assert dirty['capacity']['counts'] == dict(available=27,frozen=4,occupied=4,free=19,excess=0,unplaced=0,in_stock=8,
+                                               receivable=19,quarantined=0)
+    assert dirty['capacity']['quarantined_slots'] == []
 
 
 def test_clean_stock():

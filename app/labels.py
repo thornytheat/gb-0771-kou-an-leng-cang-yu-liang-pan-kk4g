@@ -6,4 +6,4 @@ CODES = {'WIDTH':'列数不符','MISSING':'必填字段缺失','MOVE_FIELDS':'�
          'SLOT_UNKNOWN':'缺少槽位证据','CAPACITY_EXCEEDED':'调入超出槽位容量','INVALID_LIFECYCLE':'无效入出库动作',
          'SIMULTANEOUS':'同刻动作冲突','LOT_UNKNOWN':'未知货批','TICKET_MISMATCH':'查验单不匹配','ALREADY_FROZEN':'货批已冻结',
          'FROZEN_OUT':'冻结件不得出库','DOOR_BOUNCE':'门信号抖动','DOOR_CONFLICT':'同刻门态矛盾',
-         'TEMP_INVALID':'温度读数无效','TEMP_CONFLICT':'同刻温度矛盾'}
+         'TEMP_INVALID':'温度读数无效','TEMP_CONFLICT':'同刻温度矛盾','MOVE_DISPUTED':'调位去向冲突'}
